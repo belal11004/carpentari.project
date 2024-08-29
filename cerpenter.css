@@ -310,3 +310,103 @@ section.feature {margin-top: 34px;}
 .about-right .btn {
     margin-top: 45px;
 }
+.our-service h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.service-row {
+    display: flex; 
+    justify-content: center;
+}
+
+.service-row .card img {
+    width: 409px;
+}
+
+.service-row .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 5px solid #dee2e6; */
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.service-row .card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #b7b3b3;
+    width: 400px;
+}
+
+.service-row .card div h3 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.service-row .card div p{
+    font-size: 18px;
+    text-align: center;
+    width: 350px;
+}
+.service-row .card div a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #c57820;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.Our.project {
+    /* display: flex; */
+    /* justify-content: center; */
+}.Our.project {}
+
+.project-heading h1 {
+    font-size: 48px;
+    /* text-align: center; */
+}
+
+.project-heading a {
+    font-size: 20px;
+    /* text-align: center; */
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.project-heading {
+    text-align: center;
+}
+
+.project-row {
+    display: flex;
+    justify-content: center;
+}
+
+.project-row .card img {
+    width: 407px;
+}
+
+.project-row .card {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.project-row .card div p {
+    font-size: 20px;
+    color: #c57820;
+    margin-left: 20px;
+}
+.project-row .card div h4{ 
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+} 
+.project-row .card div{
+    border:5px solid #b7b3b3;
+    width: 398px;
+    margin-top: -10px;
+
+}
