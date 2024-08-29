@@ -1,0 +1,312 @@
+section.topber {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    color: gray;
+}
+
+.topber-left {
+    display: flex;
+    margin-left: 20px;
+}
+
+.topber-left time {
+    margin-left: 20px;
+}
+
+.topber-left .time {
+    margin-left: 20px;
+}
+
+.topber-left i {
+    margin-right: 10px;
+}
+
+.topber-right {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.topber-right .ficon a {
+    color: #c57820;
+    padding: 10px;
+    background-color: white;
+}
+
+.call {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.call i {
+    margin-right: 10px;
+    font-size: 14px;
+}
+section.navber {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+
+.navber-left {
+    font-size: 23px;
+    color: #c57820;
+    margin-left: 20px;
+}
+
+.nav-right {
+    display: flex;
+    margin-left:530px;
+}
+
+.navber .btn a {
+    display: flex;
+    text-decoration: none;
+    background-color: #c57820;
+    padding: 24px 48px;
+    color: white;
+    align-items: center;
+    font-size: 20px;
+}
+.navber .btn a:hover {
+background-color: #e7a457;
+
+}
+section.navber {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+}
+
+.btn i {
+    margin-left: 12px;
+    margin-top: 4px;
+   
+}
+
+.nav-right a {
+    text-decoration: none;
+    margin: 10px; 
+     color: black;
+     font-size: 17px;
+}
+.page {
+    position: relative;
+}
+
+
+
+.page-item {
+    position: absolute;
+    background-color: white;
+  visibility: hidden;
+  border-radius: 5px;
+  top: 150%;
+}
+
+.page a {
+    display: flex;
+    font-size: 17px;
+    align-items: center;
+}
+
+
+.page:hover .page-item {
+    visibility: visible;
+    transition: .5s;
+    top: 100%;
+    
+}
+.page i{
+    margin-left: 5px;
+font-size: 11px;
+}
+.nav-right a:hover {color: #c57820;
+}
+section.hero img {
+    position: relative;
+    width: 1467px;
+}
+
+.text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: -38%;
+    margin-left: 20%;
+    width: 880px;
+    background: rgb(60, 60, 60, 0.2);
+}
+
+.text h1 {
+    font-size: 64px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.text p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: -40px;
+}
+
+.text h3 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+section.hero .btn {
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn .btn1 {
+    color: white;
+    margin-right: 20px;
+}
+
+.btn1 a {
+    color: white;
+    font-size: 20px;
+    background-color: #c57820;
+    padding: 16px 48px;
+    text-decoration: none;
+}
+
+.btn2 a {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 16px 48px;
+    text-decoration: none;
+}
+section.feature {margin-top: 34px;}
+
+.feature-all {
+    display: flex;
+    /* width: 1320px; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 66px;
+}
+
+.feature-all {}
+
+.icon-all {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.icon-all .icon i {color:  #c57820;
+    font-size: 32px;
+    background-color:#F5F5F5;
+     PADDING: 12PX;}
+
+.icon P {
+    FONT-SIZE: 20PX;
+    FONT-WEIGHT: BOLD;
+}
+
+.icon {
+    margin-right: 50px;
+}
+
+.icon-all h1 {font-size: 80px;color: #F5f5F5;}
+.about {
+    display: flex;
+    margin-top: 14px;
+}
+
+.about-left {
+}
+
+.about-left img {
+    width: 740px;
+    height: 535px;
+}
+
+.about-right {
+    padding: 50px;
+    background-color: #F5F5F5;
+    margin-bottom: 4px;
+ 
+}
+
+.about-us {}
+
+.about-us h1 {
+    font-size: 48px;
+}
+
+.about-us p {
+    font-size: 20px;
+}
+
+.happy-all {}
+
+.happy-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.happy {}
+
+.happy {
+    display: flex;
+    align-items: center;
+}
+
+.happy i {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+    color: #c57820;
+    background-color: white;
+    padding: 12px;
+    width: 40px;
+    margin-right: 20px;
+
+}
+
+.happy h2 {
+    font-size: 32px;
+    color: #c57820;
+    margin-top: 20px;
+    margin-right: -57px;
+}
+
+.happy p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.happy {
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.happy div {
+    line-height: .5;
+    padding: -1px 0px;
+    
+}
+
+.about-right .btn a {
+    background-color: #c57820;
+    padding: 20px 45px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.about-right .btn {
+    margin-top: 45px;
+}
